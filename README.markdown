@@ -25,3 +25,7 @@ The intent of this tiny plugin is to easily and flexibly add icons beside your t
 ## Demo
 
 The repo includes the demo files, but you can also view the demo at [http://baldwindavid.github.com/jquery-icon/demo](http://baldwindavid.github.com/jquery-icon/demo)
+
+## jquery.autoIcons.js
+
+You might also find the [jquery.autoIcons.js](http://github.com/baldwindavid/jquery-autoIcons) plugin helpful to automatically add icons to links based upon common file extensions (doc, xls, etc) or your own custom extensions.
