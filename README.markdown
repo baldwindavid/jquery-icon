@@ -6,7 +6,7 @@ The intent of this tiny plugin is to easily and flexibly add icons beside your t
 
 - jquery (>1.4x)
 - jquery.icon.js
-- icon.css (or your custom css)
+- jquery.icon.css (or your custom css)
 	
 ## Super Simple Example
 

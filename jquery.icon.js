@@ -11,7 +11,7 @@
 
   $.fn.icon.defaults = {
     iconAttribute: 'icon',
-    iconClass: 'db-icon',
+    iconClass: 'jquery-icon',
     iconPath: 'icons/'
   };
 
