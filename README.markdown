@@ -27,11 +27,11 @@ The intent of this tiny plugin is to easily and flexibly add icons beside your t
 The repo includes the demo files, but you can also view the demo at [http://baldwindavid.github.com/jquery-icon/demo](http://baldwindavid.github.com/jquery-icon/demo)
 
 ## Icon Sets
-- (http://www.famfamfam.com/lab/icons/silk/)
-- (http://www.famfamfam.com/lab/icons/mini/)
-- (http://www.brandspankingnew.net/archive/2006/06/doctype_icons_2.html)
-- (http://p.yusukekamiyamane.com/)
-- (http://prothemedesign.com/circular-icons/)
+- [http://www.famfamfam.com/lab/icons/silk/](http://www.famfamfam.com/lab/icons/silk/)
+- [http://www.famfamfam.com/lab/icons/mini/](http://www.famfamfam.com/lab/icons/mini/)
+- [http://www.brandspankingnew.net/archive/2006/06/doctype_icons_2.html](http://www.brandspankingnew.net/archive/2006/06/doctype_icons_2.html)
+- [http://p.yusukekamiyamane.com/](http://p.yusukekamiyamane.com/)
+- [http://prothemedesign.com/circular-icons/](http://prothemedesign.com/circular-icons/)
 
 ## jquery.autoIcons.js
 
