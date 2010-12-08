@@ -3,16 +3,16 @@
 (function($) {
 
   $.fn.icon = function(options) {
-  	var opts = $.extend({}, $.fn.icon.defaults, options);
-  	$.each(this, function(index, item) {
-      $(item).css("background-image", 'url(' + opts.prependPath + $(item).attr(opts.getImageFrom) + ')').addClass(opts.addClass);
+    var opts = $.extend({}, $.fn.icon.defaults, options);
+    $.each(this, function(index, item) {
+      $(item).css("background-image", 'url(' + opts.iconPath + $(item).attr(opts.iconAttribute) + ')').addClass(opts.iconClass);
     });
   };
-  
+
   $.fn.icon.defaults = {
-    getImageFrom: 'rel',
-    addClass: 'icon',
-		prependPath: ''
-	};
+    iconAttribute: 'data-icon',
+    iconClass: 'jquery-icon',
+    iconPath: 'icons/'
+  };
 
 })(jQuery);

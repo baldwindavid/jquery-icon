@@ -4,9 +4,9 @@ The intent of this tiny plugin is to easily and flexibly add icons beside your t
 
 ## Requirements
 
-- jquery
+- jquery (>1.4x)
 - jquery.icon.js
-- icon.css (or your custom css)
+- jquery.icon.css (or your custom css)
 	
 ## Super Simple Example
 
@@ -20,7 +20,7 @@ The intent of this tiny plugin is to easily and flexibly add icons beside your t
   	
 ### ...and sample html
 
-    <a class="example-class" rel="facebook.gif">Link to Facebook</a>
+    <a class="example-class" data-icon="facebook.gif">Link to Facebook</a>
     
 ## Demo
 
