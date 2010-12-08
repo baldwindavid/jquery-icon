@@ -11,7 +11,7 @@
 	
 	<style type="text/css" media="screen">
 	 body {
-	   font-family: Helvetica, Arial, Verdana, sans-serif;
+	   font-family: Helvetica, Arial, sans-serif;
 	 }
 	</style>
 	
@@ -20,13 +20,13 @@
       $(".inline-link-example").icon();
       $(".list-example a").icon();
       $(".alternate-path-example").icon({
-        prependPath: "alternate-path-example-icons/"
+        iconPath: "alternate-path-example-icons/"
       });
       $(".alternate-filename-attribute").icon({
-        getImageFrom: "href"
+        iconAttribute: "href"
       });
       $(".alternate-automatic-class").icon({
-        addClass: "alternate-class"
+        iconClass: "alternate-class"
       });
     });
 	</script>
@@ -39,14 +39,14 @@
   <p><a href="http://github.com/baldwindavid/jquery-icon">Download</a></p>
 
   <h2>EXAMPLES</h2>
-  <p>These icons are added based upon the <strong>rel</strong> attribute of the tags.</p>
+  <p>These icons are added based upon the <strong>data-icon</strong> attribute of the tags.</p>
   <h3>Inline icon</h3>
-  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor <a href="#" rel="linkedin.gif" class="inline-link-example">incididunt</a> ut labore et dolore magna aliqua.</p>
+  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor <a href="#" data-icon="linkedin.gif" class="inline-link-example">incididunt</a> ut labore et dolore magna aliqua.</p>
   
   <h3>Class applied to list items</h3>
   <ul class="list-example">
-    <li><a href="#" rel="twitter.gif">Twitter</a></li>
-    <li><a href="#" rel="facebook.gif">Facebook</a></li>
+    <li><a href="#" data-icon="twitter.gif">Twitter</a></li>
+    <li><a href="#" data-icon="facebook.gif">Facebook</a></li>
   </ul>
   
   <hr />
@@ -54,16 +54,16 @@
   <h2>OPTIONS</h2>
   
   <h3>Alternate image path</h3>
-  <p>By default, icons are expected to be in the same directory as the displayed page.  This can be changed via the <strong>prependPath</strong> option.</p>
-  <p>This <span class="alternate-path-example" rel="share.gif">icon</span> image is located in the "alternate-path-example-icons" directory.</p>
+  <p>By default, icons are expected to be in the "icons" directory.  This can be changed via the <strong>iconPath</strong> option.</p>
+  <p>This <span class="alternate-path-example" data-icon="share.gif">icon</span> image is located in the "alternate-path-example-icons" directory.</p>
 
   <h3>Alternate attribute to get filename</h3>
-  <p>By default, the icon filename is expected in the <strong>rel</strong> attribute.  This can be changed via the <strong>getImageFrom</strong> option.</p>
-  <p>This <a href="addthis.gif" class="alternate-filename-attribute">icon</a> was retrieved via the <strong>href</strong> attribute of the link.</p>
+  <p>By default, the icon filename is expected in the <strong>data-icon</strong> attribute.  This can be changed via the <strong>iconAttribute</strong> option to use a different data attribute.</p>
+  <p>This <a data-href="addthis.gif" class="alternate-filename-attribute">icon</a> was retrieved via the <strong>data-href</strong> attribute of the link.</p>
   
   <h3>Alternate class automatically applied to matching elements</h3>
-  <p>By default, the <strong>icon</strong> class is automatically applied to any matching elements.  This can be changed via the <strong>addClass</strong> option.</p>
-  <p>This <span class="alternate-automatic-class" rel="facebook.gif">icon</span> has a different class automatically applied.  Obviously a css rule for "alternate-class" is needed.</p>
+  <p>By default, the <strong>icon</strong> class is automatically applied to any matching elements.  This can be changed via the <strong>iconClass</strong> option.</p>
+  <p>This <span class="alternate-automatic-class" data-icon="facebook.gif">icon</span> has a different class automatically applied.  Obviously a css rule for "alternate-class" is needed.</p>
 
 </body>
 </html>

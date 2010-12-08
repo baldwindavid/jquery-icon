@@ -5,14 +5,14 @@
   $.fn.icon = function(options) {
     var opts = $.extend({}, $.fn.icon.defaults, options);
     $.each(this, function(index, item) {
-      $(item).css("background-image", 'url(' + opts.prependPath + $(item).data(options.imageFilenameAttribute) + ')').addClass(opts.iconClass);
+      $(item).css("background-image", 'url(' + opts.iconPath + $(item).data(opts.iconAttribute) + ')').addClass(opts.iconClass);
     });
   };
 
   $.fn.icon.defaults = {
-    imageFilenameAttribute: 'icon',
-    iconClass: 'icon',
-    prependPath: '/images/'
+    iconAttribute: 'icon',
+    iconClass: 'db-icon',
+    iconPath: 'icons/'
   };
 
 })(jQuery);
