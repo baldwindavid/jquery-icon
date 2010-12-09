@@ -28,6 +28,9 @@
       $(".alternate-automatic-class").icon({
         iconClass: "alternate-class"
       });
+      $(".default-extension-set").icon({
+        iconExtension: ".gif"
+      });
     });
 	</script>
 	
@@ -37,6 +40,8 @@
   
   <h1>jquery.icon.js</h1>
   <p><a href="http://github.com/baldwindavid/jquery-icon">Download</a></p>
+  
+  <p><em>View source to see how these examples work</em></p>
 
   <h2>EXAMPLES</h2>
   <p>These icons are added based upon the image named in the <strong>data-icon</strong> attribute of the tags (attribute is configurable).</p>
@@ -64,6 +69,10 @@
   <h3>Alternate class automatically applied to matching elements</h3>
   <p>By default, the <strong>jquery-icon</strong> class is automatically applied to any matching elements.  This can be changed via the <strong>iconClass</strong> option.</p>
   <p>This <span class="alternate-automatic-class" data-icon="facebook.gif">icon</span> has a different class automatically applied.  Obviously a css rule for "alternate-class" is needed.</p>
+  
+  <h3>Default extension set in configuration</h3>
+  <p>By default, it is necessary to provide the full icon filename.  However, if you know that all icons will be of a specific file type (ie .gif), you can set a default extension.  This will allow you to specify the icon via the name without the extension.</p>
+  <p>This <span class="default-extension-set" data-icon="linkedin">icon</span> was specified without the extension.</p>
 
 </body>
 </html>
