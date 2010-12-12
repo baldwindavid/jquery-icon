@@ -33,6 +33,10 @@ The repo includes the demo files, but you can also view the demo at [http://bald
 - [http://p.yusukekamiyamane.com/](http://p.yusukekamiyamane.com/)
 - [http://prothemedesign.com/circular-icons/](http://prothemedesign.com/circular-icons/)
 
+## Thanks
+
+[Joel Meador](https://github.com/janxious) helped to cleanup up the API and set more appropriate defaults.
+
 ## jquery.autoIcons.js
 
 You might also find the [jquery.autoIcons.js](http://github.com/baldwindavid/jquery-autoIcons) plugin helpful to automatically add icons to links based upon common file extensions (doc, xls, etc) or your own custom extensions.
